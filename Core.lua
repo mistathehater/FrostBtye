@@ -105,7 +105,7 @@ if typeof(TeleportData) == "table" and TeleportData.FrostByteRejoin then
 	return
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/refs/heads/main/FrostByte/Initiate.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mistathehater/FrostBtye/refs/heads/main/Initiate.lua"))()
 	
 	]])
 end
@@ -187,7 +187,7 @@ task.spawn(function()
 		local Button1 = "✅ Yes" 
 		local Button2 = "❌ No"
 
-		local File = `https://raw.githubusercontent.com/alyssagithub/Scripts/refs/heads/main/FrostByte/Games/{PlaceFileName}.lua`
+		local File = `https://raw.githubusercontent.com/mistathehater/FrostBtye/refs/heads/main/Games/{PlaceFileName}.lua`
 
 		BindableFunction.OnInvoke = function(Button: string)
 			Response = true
