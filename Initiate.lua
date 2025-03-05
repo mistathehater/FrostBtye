@@ -19,7 +19,7 @@ PlaceName = PlaceName:gsub("[^%a]", "")
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/refs/heads/main/FrostByte/Analytics.lua"))()
 
-local Success, Code: string = pcall(game.HttpGet, game, `https://raw.githubusercontent.com/alyssagithub/Scripts/refs/heads/main/FrostByte/Games/{PlaceName}.lua`)
+local Success, Code: string = pcall(game.HttpGet, game, `https://raw.githubusercontent.com/mistathehater/refs/heads/main/{PlaceName}.lua`)
 
 if Success and Code:find("ScriptVersion = ") then
 	Notify("Game found, the script is loading.")
